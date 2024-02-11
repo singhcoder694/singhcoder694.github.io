@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41a04011.css",
+    "main.js": "/static/js/main.662c43df.js",
+    "static/media/literacy.png": "/static/media/literacy.31ea312917fcc89eec1b.png",
+    "static/media/tindog.png": "/static/media/tindog.44151d995d0e15617755.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.e813b5ab1775a717b91c.png",
+    "static/media/my_photo.png": "/static/media/my_photo.1a429062f14eb1fc066e.png",
+    "static/media/matrix.png": "/static/media/matrix.ecd88be5b2a7143a543d.png",
+    "static/media/codeforces.png": "/static/media/codeforces.1d09e8ea972212fd0601.png",
+    "static/media/Express.jpg": "/static/media/Express.061f70d9870f8a5eb28d.jpg",
+    "static/media/react.jpg": "/static/media/react.ebc48abda83fd53dd7df.jpg",
+    "static/media/Cpp.jpg": "/static/media/Cpp.7215099ba70716d9d6dc.jpg",
+    "static/media/CSS.jpg": "/static/media/CSS.82755d160f88ce28c921.jpg",
+    "static/media/HTML.jpg": "/static/media/HTML.bbba3d967e5132756709.jpg",
+    "static/media/Git.jpg": "/static/media/Git.64e83780d18ba4a9c989.jpg",
+    "static/media/Postgre.jpg": "/static/media/Postgre.946bf3da1f5be7668ce9.jpg",
+    "static/media/Python.jpg": "/static/media/Python.f2c150489b3e558c6f94.jpg",
+    "static/media/JS.jpg": "/static/media/JS.702e91d1c826d0ac1a57.jpg",
+    "index.html": "/index.html",
+    "main.41a04011.css.map": "/static/css/main.41a04011.css.map",
+    "main.662c43df.js.map": "/static/js/main.662c43df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41a04011.css",
+    "static/js/main.662c43df.js"
+  ]
+}
