@@ -1,0 +1,45 @@
+.about_section{
+    padding-left:8%;
+}
+.about_section #name{
+    color:aqua;
+    font-family: Nunito;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 0px;
+}
+.about_section .about_start{
+    color:white;
+    font-size: 1.3rem;
+    margin-right:50px;
+}
+.qualifications{
+    display: flex;
+    flex-direction: row;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.qualifications p{
+    display: flex;
+    flex-direction: column;
+    margin:auto 50px auto 0px;
+    font-size: 1.5rem;
+}
+.qualifications p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    padding-left:0px;
+}
+ul li{
+    margin:5px auto 20px auto;
+    font-size: 1.3rem;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.time_line{
+    margin: 0px;
+    font-family: Nunito;
+    font-weight: 800;
+}

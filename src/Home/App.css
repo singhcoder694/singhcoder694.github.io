@@ -1,0 +1,15 @@
+.profile_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #20232F;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+@media (max-width:970px){
+    .profile_section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
