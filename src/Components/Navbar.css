@@ -3,8 +3,13 @@
     z-index: 100;
     display: grid;
     grid-template-columns: 1fr 6fr;
-    padding:30px 9%;
+    padding:20px 9%;
     background-color: #20232F;
+}
+@media screen and (min-height:750px){
+    .portfolio_navbar{
+        padding:50px 9%;
+    }
 }
 .nav_heading{
     display: flex;
@@ -23,12 +28,17 @@
 .nav_name:hover{
     cursor:pointer;
 }
-@media (min-width:830px){
+@media (min-height:760px){
     .portfolio_navbar{
-        padding:20px 9%;
+        padding:50px 9%;
     }
     .nav_name{
-        font-size: 1.8rem;
+        font-size: clamp(1.8rem,3vw,4rem)
+    }
+}
+@media (min-width:830px){
+    .nav_name{
+        font-size: clamp(1.8rem,3vw,4rem)
     }
 }
 .nav_content{
@@ -45,7 +55,6 @@
     display: inline;
     margin-left:1.2rem;
     font-size: 1.1rem;
-    color:white;
     font-family: "Nunito";
     transition: all 0.3s ease;
 }
@@ -53,29 +62,33 @@ a{
     text-decoration:none;
     display: inline;
     margin-left:1.2rem;
-    font-size: 1.1rem;
     color:white;
     font-family: "Nunito";
     transition: all 0.3s ease;
+}
+@media (min-width:1400px){
+    .nav_content ul a{
+        margin:2rem;
+    }
 }
 .nav_content ul li:first-child{
     display: inline;
     margin-left:0;
     font-size: 1.1rem;
 }
-.nav_content ul li:hover{
+.nav_content ul a li:hover{
     color:aqua;
     cursor: pointer;
 }
 @media (min-width:830px){
     .nav_content ul li{
         margin-left:1.7rem;
-        font-size: 1.3rem;
+        font-size:clamp(1.1rem,2vw,3rem);
     }
     .nav_content ul li:first-child{
         display: inline;
         margin-left:0;
-        font-size: 1.3rem;
+        font-size:clamp(1.1rem,2vw,3rem);
     }
 }
 @media (max-width:660px){

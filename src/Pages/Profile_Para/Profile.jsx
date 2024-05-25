@@ -42,8 +42,8 @@ function Profile(){
                     <p>Pursuing my Btech from IIT Delhi. I leverage my passion for coding to create innovative solutions, constantly learning and evolving in the dynamic world of technology.</p>
                 </div>
                 <div className="profile_links" data-aos="fade-left">
-                    <a href="https://github.com/singhcoder694" target="_blank" className="icon_"><FaGithubSquare /></a>
-                    <a href="https://www.linkedin.com/in/vivek-singh-0b344124b/" className="icon_" target="_blank"><FaLinkedin /></a>
+                    <a href="https://github.com/singhcoder694" target="_blank" rel="noreferrer" className="icon_"><FaGithubSquare /></a>
+                    <a href="https://www.linkedin.com/in/vivek-singh-0b344124b/" className="icon_" target="_blank" rel="noreferrer"><FaLinkedin /></a>
                 </div>
                 <div className="main_buttons">
                     <div className="button_cv">

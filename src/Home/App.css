@@ -1,9 +1,12 @@
+.main_class{
+    overflow: hidden;
+}
 .profile_section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #20232F;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
     overflow-y: hidden;
     overflow-x: hidden;
 }

@@ -5,7 +5,7 @@ import Photo from "../Pages/Profile_Pic/Image";
 import "./App.css"
 function App(){
     return (
-        <div>
+        <div className="main_class">
             <Navbar/>
             <div className="profile_section">
                 <Profile />

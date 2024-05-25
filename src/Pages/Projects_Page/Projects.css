@@ -1,6 +1,6 @@
 .proj_heading{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: clamp(2.5rem,3vw,6rem);
     font-weight: 600;
     color:aqua;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,6 +13,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin:30px;
+    place-items: center center;
 }
 @media (min-width:500px) and (max-width:1000px){
     .proj_content{
@@ -31,11 +32,25 @@
     box-shadow: 0 0 0.3rem white;
     display: flex;
     margin:10px;
-    height: 200px;
+    height: 30vh;
+    width:90%;
 }
 @media (min-width:700px) and (max-width:1000px){
     .proj_content .proj_card{
         height: 170px;
+        width:90%;
+    }
+}
+@media (min-width:500px) and (max-width:700px){
+    .proj_content .proj_card{
+        height: 240px;
+        width:90%;
+    }
+}
+@media (max-width:500px){
+    .proj_content .proj_card{
+        height: 30vh;
+        width:100%;
     }
 }
 .proj_card img{
@@ -67,7 +82,7 @@
 }
 .proj_name{
     color:white;
-    font-size: clamp(1rem,5vw,2.5rem);
+    font-size: clamp(1rem,3vw,5rem);
     margin:5px;
     font-family: cursive;
     font-weight: 800;
@@ -80,7 +95,7 @@
     transform: translateY(0);
 }
 .about_proj a{
-    font-size: clamp(1rem,5vw,2.5rem);
+    font-size: clamp(1rem,3vw,5rem);
     color: whitesmoke;
 }
 .about_proj .link{

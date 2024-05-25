@@ -31,11 +31,11 @@ function About() {
                 <div className='qualifications'>
                     <p onClick={handleClick1} style={show[0]?style1:style2}>Education</p>
                     <p onClick={handleClick2} style={show[1]?style1:style2}>Achievements</p>
-                    <p onClick={handleClick3} style={show[2]?style1:style2}>PORs</p>
+                    <p onClick={handleClick3} style={show[2]?style1:style2} title="Posistion of Responsibilities">PORs</p>
                 </div>
                 {show[0] && <div className='education'>
                     <ul>
-                        <li className='time_line'>2022-2026</li>
+                        <li className='time_line'>2022-2026 (Ongoing)</li>
                         <li>Btech in Civil Engineering from <strong style={{color:"azure"}}>IIT Delhi</strong> - <i style={{color:"aqua"}}>7.52</i> GPA(Current)</li>
                         <li className='time_line'>2020-2021</li>
                         <li>Senior Secondary Education - CBSE Board - <i style={{color:"aqua"}}>91.4</i>%</li>
@@ -55,6 +55,8 @@ function About() {
                 </div>}
                {show[2] && <div className='pors'>
                     <ul>
+                    <li className='time_line'>2024-2025 (Current)</li>
+                        <li><strong style={{color:"azure"}}>Technical secretary</strong> of <i style={{color:"aqua"}}>Vindhyachal Hostel</i> at <strong style={{color:"azure"}}>IIT Delhi.</strong></li>
                         <li className='time_line'>2023-2024</li>
                         <li><strong style={{color:"azure"}}>Technical Team Executive</strong> of <i style={{color:"aqua"}}>Placement Cell</i> at <strong style={{color:"azure"}}>IIT Delhi.</strong></li>
                         <li className='time_line'>2023-2024</li>

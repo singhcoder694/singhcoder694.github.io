@@ -58,7 +58,7 @@ function Projects() {
             <div className="proj_content" >
                 {projects.map((project, index) => (
                     <div className="proj_card" key={index} data-aos="fade-out">
-                        <img src={process.env.PUBLIC_URL + project.img} />
+                        <img src={process.env.PUBLIC_URL + project.img} alt={"Project" + project.name} />
                         <div className="proj_card_above">
                             <p className="proj_name">{project.name}</p>
                             {/* <p className="about_proj">App to get Information from Codforces using it's API.</p> */}
